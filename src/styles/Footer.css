@@ -5,3 +5,7 @@
 .footer-links {
     border: 1px solid gray;
 }
+
+.footer-main-div {
+    display: flex;
+}

@@ -12,13 +12,13 @@ const Footer = () => {
                     <a href='https://www.linkedin.com/in/DarciKelts/'><BsTwitter color='blue' size='40px'/></a>
                     <a href='https://www.linkedin.com/in/DarciKelts/'><BsLinkedin color='blue' size='40px'/></a>
                 </div>
+            </div>
 
-                <div className='contact-info'>
-                    <address>
-                        <a className='footer-phone' href='tel:+12065588968'>(206) 558-8968</a>
-                        <a className='footer-email' href='mailto:jim@rock.com'>Darci123@darci.com</a>
-                    </address>
-                </div>
+            <div className='contact-info'>
+                <address>
+                    <a className='footer-phone' href='tel:+12065588968'>(206) 558-8968</a>
+                    <a className='footer-email' href='mailto:jim@rock.com'>Darci123@darci.com</a>
+                </address>
             </div>
 
             <div className='footer-nav-links'>
