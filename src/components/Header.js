@@ -1,21 +1,21 @@
 import React from "react";
-import { Link,  BrowserRouter as Router } from "react-router-dom";
+import { Link  } from "react-router-dom";
 import '../styles/Header.css';
+import { FiHome } from "react-icons/fi";
 
 const Header = () => {
     return(<div>
             <div className="Header">
             <div className="header-log">
-                <img src="src/assets/ups_oops.jpg" alt="logo"></img>
+                <FiHome className="FiHome-icon" />
             </div>
-            <Router>
                 <div className="nav-bar">
-                    <Link to='/'>Home</Link>
-                    <Link to='/Service'>Services</Link>
-                    <Link to='/About'>About Me</Link>
-                    <Link to='/Contact'>Contact Me</Link>
-                </div>
-            </Router>
+                <ul>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/About'>About Me</Link></li>
+                    <li><Link to='/Contact'>Contact Me</Link></li>   
+                    </ul> 
+                </div>     
             </div>
     </div>)
 }
