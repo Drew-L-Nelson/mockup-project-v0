@@ -6,7 +6,7 @@ const Header = () => {
     return(<div>
             <div className="Header">
             <div className="header-log">
-                <img src="public\assets\ups_oops.jpg"></img>
+                <img src="src/assets/ups_oops.jpg" alt="logo"></img>
             </div>
             <Router>
                 <div className="nav-bar">
