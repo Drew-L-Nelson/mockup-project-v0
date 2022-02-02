@@ -8,6 +8,9 @@ const Feature = () => {
   return (
     <div>
       Feature
+      <Intro />
+      <Mission />
+      <Services />
     </div>
   );
 };
