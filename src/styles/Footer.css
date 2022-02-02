@@ -1,0 +1,12 @@
+.footer-main-div, 
+.footer-social-media, 
+.contact-info, 
+.footer-nav-links, 
+.footer-links {
+    border: 1px solid gray;
+}
+
+.footer-main-div {
+    display: flex;
+    justify-content: space-around;
+}
