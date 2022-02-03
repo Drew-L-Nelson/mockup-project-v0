@@ -9,9 +9,9 @@ const Mission = () => {
         body
         style={{
           backgroundColor: '#C2C5AA',
-          borderColor: '#C2C5AA',
-          width: '100%'
+          borderColor: '#C2C5AA'
         }}
+        className='Mission-Card'
       >
         <CardTitle tag="h5" className='Mission-card-title'>
           Our Mission Statement
