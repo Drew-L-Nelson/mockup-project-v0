@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Mockup Project v0</h1>
         <Router>
           <Route exact path='/About'>
             <AboutMePage />

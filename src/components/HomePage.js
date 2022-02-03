@@ -8,7 +8,7 @@ import Footer from "./Footer";
 const HomePage = () => {
   return(
     <div>
-      HomePage
+      <div className="white-space"></div>
       <Header/>
       <Feature />
       <ContactForm />

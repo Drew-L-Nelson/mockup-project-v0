@@ -2,6 +2,7 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import Swal from 'sweetalert2';
+import '../styles/ContactForm.css';
 
 const ContactForm = () => {
   const handleOnSubmit = (e) => {
@@ -27,30 +28,30 @@ const ContactForm = () => {
   return (
     <div className="App">
       <Form onSubmit={handleOnSubmit}>
+        <label>Email</label>
         <Form.Field
           id='form-input-control-email'
           control={Input}
-          label='Email'
           name='user_email'
           placeholder='Email…'
           required
           icon='mail'
           iconPosition='left'
         />
+        <label>Name</label>
         <Form.Field
-          id='form-input-control-last-name'
+          id='form-input-control-name'
           control={Input}
-          label='Name'
           name='user_name'
           placeholder='Name…'
           required
           icon='user circle'
           iconPosition='left'
         />
+        <label>Message</label>
         <Form.Field
           id='form-textarea-control-opinion'
           control={TextArea}
-          label='Message'
           name='user_message'
           placeholder='Message…'
           required
