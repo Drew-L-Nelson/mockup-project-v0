@@ -1,12 +1,51 @@
-.footer-main-div, 
-.footer-social-media, 
-.contact-info, 
-.footer-nav-links, 
-.footer-links {
-    border: 1px solid gray;
+.footer-main-div {
+    background-color: #F9F5F5;
+    display: flex;
+    justify-content: space-evenly;
+    height: 10rem;
 }
 
-.footer-main-div {
+.footer-contact-info {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-phone, .footer-email {
+    font-weight: bold;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #333D29;
+    text-decoration: none;
+}
+
+.footer-social-media, .footer-contact-info, .footer-nav-links {
+    width: 33%;
+}
+
+.icons {
+    color: #333D29;
+}
+
+.icons :hover {
+    color: #A4AC86;
+}
+
+.footer-social-media {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-link {
+    padding-left: 10%;
+    padding-right: 4%;
+    color: #333D29;
 }
