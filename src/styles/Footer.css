@@ -30,6 +30,8 @@
 
 .icons :hover {
     color: #A4AC86;
+    opacity: 0.9;
+    transition: 0.3s;
 }
 
 .footer-social-media {
