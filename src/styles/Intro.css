@@ -1,0 +1,49 @@
+.intro-main-div {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/54a65094e4b0631d0c489ac8/1601676313883-0BNK0VUBS4YROJNZLEWL/Prospector+Golf+Club1-45.jpg');
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+}
+
+.photo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+}
+
+.head-shot {
+    border: 5px solid white;
+    border-radius: 500px;
+    width: 80%;
+}
+
+.contact-div {
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-button, .call-button {
+    color: white;
+    background: #333D29;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 30%);
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.contact-button:hover, .call-button:hover {
+    color: #333D29;
+    background: white;
+    opacity: 0.9;
+    transition: 0.6s;
+}
