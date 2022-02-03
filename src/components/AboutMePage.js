@@ -20,7 +20,7 @@ const AboutMePage = () => {
              </div>
              <div className="bottom-left">
                  <div className="headshot">
-                     <img src="https://source.unsplash.com/gySMaocSdqs/600x300" alt="about-me-unsplash"/>
+                     <img src="https://source.unsplash.com/gySMaocSdqs/600x600" alt="about-me-unsplash"/>
                  </div>
                  <div className="contact-card">
                      <p>call us: 555-555-555</p>
