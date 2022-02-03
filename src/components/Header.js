@@ -6,7 +6,7 @@ import { FiHome } from "react-icons/fi";
 const Header = () => {
     return(<div>
             <div className="Header">
-            <div className="header-log">
+            <div className="header-logo">
                 <FiHome className="FiHome-icon" />
             </div>
                 <div className="nav-bar">
