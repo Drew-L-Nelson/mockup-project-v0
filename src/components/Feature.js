@@ -7,7 +7,6 @@ import Services from './Services';
 const Feature = () => {
   return (
     <div>
-      Feature
       <Intro />
       <Mission />
       <Services />

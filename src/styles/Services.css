@@ -1,0 +1,19 @@
+.Services-card-image{
+    height: 200px;
+    width: 200px;
+    margin:0 auto;
+}
+.Services-CardTitle, .Services-CardText{
+    color: hsl(75, 15%, 90%);
+    text-align: center;
+    padding-bottom: 2%;
+    
+}
+.Services-CardText{
+    width: 50%;
+}
+.Services-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

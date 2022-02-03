@@ -57,6 +57,11 @@ li:active {
     -webkit-transform: scale(1, 1);
   }
 }
+.header-logo{
+  width: 10%;
+
+}
 .FiHome-icon{
-  margin-left: 5%;
+  height: 100%;
+  width: 100%;
 }
