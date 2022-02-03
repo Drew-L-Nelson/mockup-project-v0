@@ -5,6 +5,7 @@ import Footer from "./Footer"
 import '../styles/AboutMePage.css';
 
 const AboutMePage = () => {
+    //main div
     return(<div className="AboutMePage-container">
         <div className="white-space"></div>
         <Header/>        
