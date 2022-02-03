@@ -8,9 +8,6 @@
     background-color:rgba(248, 242, 242, 0.8);
 
 }
-.header-logo{
-    width:50%;
-}
 
 ul{
     list-style-type: none;
@@ -63,5 +60,6 @@ li:active {
 }
 .FiHome-icon{
   margin-left: 5%;
-  
+  width: 20px;
+  height: 20px;
 }
