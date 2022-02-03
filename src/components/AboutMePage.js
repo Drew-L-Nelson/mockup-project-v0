@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer"
 
-import '../styles/AboutMePage.css';
+import '../styles/AboutMePage2.css';
 
 const AboutMePage = () => {
     //main div
