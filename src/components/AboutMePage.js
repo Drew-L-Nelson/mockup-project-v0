@@ -2,10 +2,10 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer"
 
-import '../styles/AboutMepage.css'
+import '../styles/AboutMePage.css';
 
 const AboutMePage = () => {
-    return(<div>
+    return(<div className="AboutMePage-container">
         <div className="white-space"></div>
         <Header/>        
         <div className="about-me-top">
@@ -19,7 +19,7 @@ const AboutMePage = () => {
              </div>
              <div className="bottom-left">
                  <div className="headshot">
-                     <img src="https://source.unsplash.com/gySMaocSdqs/600x300" alt="about-me-picture"/>
+                     <img src="https://source.unsplash.com/gySMaocSdqs/600x300" alt="about-me-unsplash"/>
                  </div>
                  <div className="contact-card">
                      <p>call us: 555-555-555</p>

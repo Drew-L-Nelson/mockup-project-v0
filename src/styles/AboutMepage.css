@@ -1,12 +1,9 @@
-body{
-    font-size:1.8rem;
+.AboutMePage-container{
+    font-size:1rem;
     line-height:1.5;
     color:#656D4A;
     background-color: #C2C5AA;
     font-family: 'Source Sans Pro', sans-serif;
-    /* background-image: url("https://source.unsplash.com/Aq2ZfIRzSj8");
-    background-size: auto;
-    background-repeat: no-repeat; */
 }
 
 .about-me-top{
@@ -18,10 +15,7 @@ body{
 .title{
     margin-left: 50%;
 }
-.FiHome-icon{
-    height: 200px;
-    width: 100px;
-}
+
 .about-me-bottom{
     display: flex;
     flex-direction:row-reverse;
