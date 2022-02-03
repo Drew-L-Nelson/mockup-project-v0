@@ -1,35 +1,26 @@
 import React from 'react';
-import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { BsFacebook, BsInstagram, BsLinkedin, BsFillTelephoneForwardFill } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 import '../styles/Footer.css';
 
 const Footer = () => {
     return (
         <div className='footer-main-div'>
             <div className='footer-social-media'>
-                <div className='icons'>
-                    <a href='https://www.facebook.com/DarciKeltsRealEstate'><BsFacebook color='blue' size='40px'/></a>
-                    <a href='https://www.instagram.com/darcikeltsrealestate/'><BsInstagram color='blue' size='40px'/></a>
-                    <a href='https://www.linkedin.com/in/DarciKelts/'><BsLinkedin color='blue' size='40px'/></a>
-                </div>
+                <a className='icons' href='https://www.facebook.com/DarciKeltsRealEstate'><BsFacebook size='40px' /></a>
+                <a className='icons' href='https://www.instagram.com/darcikeltsrealestate/'><BsInstagram size='40px' /></a>
+                <a className='icons' href='https://www.linkedin.com/in/DarciKelts/'><BsLinkedin size='40px' /></a>
             </div>
 
-            <div className='contact-info'>
-                <address>
-                    <a className='footer-phone' href='tel:+12065588968'>(206) 558-8968</a>
-                    <a className='footer-email' href='mailto:jim@rock.com'>Darci123@darci.com</a>
-                </address>
+            <div className='footer-contact-info'>
+                <a className='footer-phone' href='tel:+12065588968'><BsFillTelephoneForwardFill />&nbsp;(123) 456-7890</a>
+                <a className='footer-email' href='mailto:jim@rock.com'>emailMe123@emailMe.com</a>
             </div>
 
             <div className='footer-nav-links'>
-                <Router>
-                    <div className='footer-links'>
-                        <Link to='/'>Home</Link>
-                        <Link to='/Service'>Services</Link>
-                        <Link to='/About'>About Me</Link>
-                        <Link to='/Contact'>Contact Me</Link>
-                    </div>
-                </Router>
+                <Link className='footer-link' to='/'>HOME</Link>
+                <Link className='footer-link' to='/About'>ABOUT ME</Link>
+                <Link className='footer-link' to='/Contact'>CONTACT ME</Link>
             </div>
         </div>
     )
