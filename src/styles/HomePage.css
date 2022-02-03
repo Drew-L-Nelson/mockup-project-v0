@@ -1,3 +1,14 @@
 .white-space {
   height: 10vh;
 }
+
+.ContactForm-Home-container {
+  background-color: #B6AD90;
+  width: 100%;
+  padding-bottom: 1%;
+}
+
+h2 {
+  text-align: center;
+  color: #333D29;
+}

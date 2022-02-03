@@ -13,3 +13,14 @@ label {
 #form-textarea-control-opinion {
   font-size: 1.25rem;
 }
+
+.ContactForm-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.ContactForm {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
