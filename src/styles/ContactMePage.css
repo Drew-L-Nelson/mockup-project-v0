@@ -1,6 +1,9 @@
 .ContactMePage {
   display: flex;
-  
+}
+
+.white-space {
+  height: 10vh;
 }
 
 .Card {

@@ -8,6 +8,7 @@ import '../styles/ContactMePage.css';
 const ContactMePage = () => {
   return(
     <>
+    <div className="white-space"></div>
       <Header />
       <div className="ContactMePage">
         <Card className="Card">
