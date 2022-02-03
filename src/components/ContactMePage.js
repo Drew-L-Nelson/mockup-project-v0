@@ -11,7 +11,9 @@ const ContactMePage = () => {
     <div className="white-space"></div>
       <Header />
       <div className="ContactMePage">
-        <Card className="Card">
+        <Card className="Card" style={{
+          backgroundColor: '#C2C5AA'
+        }}>
           <CardImg
             alt="Card image cap"
             src="https://picsum.photos/256/186"

@@ -26,8 +26,8 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="App">
-      <Form onSubmit={handleOnSubmit}>
+    <div className='ContactForm-container'>
+      <Form onSubmit={handleOnSubmit} className='ContactForm'>
         <label>Email</label>
         <Form.Field
           id='form-input-control-email'

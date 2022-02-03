@@ -3,3 +3,13 @@
   text-align: center;
   color: #333D29;
 }
+
+.Mission-card-text {
+  width: 50%;
+}
+
+.Mission-Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
